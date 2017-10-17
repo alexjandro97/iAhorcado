@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  iAhorcado
 //
-//  Created by CETYS on 17/10/17.
-//  Copyright © 2017 CETYS. All rights reserved.
+//  Created by Alex on 17/10/17.
+//  Copyright © 2017 Alex. All rights reserved.
 //
 
 import UIKit
