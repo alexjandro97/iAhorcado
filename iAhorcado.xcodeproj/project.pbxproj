@@ -20,6 +20,7 @@
 		E35B42011F95E4F600EE4A34 /* ahorcado_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E35B41F91F95E4F600EE4A34 /* ahorcado_4.png */; };
 		E35B42021F95E4F600EE4A34 /* ahorcado_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E35B41FA1F95E4F600EE4A34 /* ahorcado_5.png */; };
 		E35B42031F95E4F600EE4A34 /* ahorcado_fin.png in Resources */ = {isa = PBXBuildFile; fileRef = E35B41FB1F95E4F600EE4A34 /* ahorcado_fin.png */; };
+		E3F97CC81F976998004CB151 /* perder.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F97CC71F976998004CB151 /* perder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E35B41F91F95E4F600EE4A34 /* ahorcado_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_4.png; sourceTree = "<group>"; };
 		E35B41FA1F95E4F600EE4A34 /* ahorcado_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_5.png; sourceTree = "<group>"; };
 		E35B41FB1F95E4F600EE4A34 /* ahorcado_fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorcado_fin.png; sourceTree = "<group>"; };
+		E3F97CC71F976998004CB151 /* perder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		E35B42041F95E52900EE4A34 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				E3F97CC71F976998004CB151 /* perder.png */,
 				E35B41F41F95E4F600EE4A34 /* acertasteTodo.png */,
 				E35B41F51F95E4F600EE4A34 /* ahorcado_0.png */,
 				E35B41F61F95E4F600EE4A34 /* ahorcado_1.png */,
@@ -162,6 +165,7 @@
 				E35B41FE1F95E4F600EE4A34 /* ahorcado_1.png in Resources */,
 				E35B42001F95E4F600EE4A34 /* ahorcado_3.png in Resources */,
 				E35B42031F95E4F600EE4A34 /* ahorcado_fin.png in Resources */,
+				E3F97CC81F976998004CB151 /* perder.png in Resources */,
 				E35B42021F95E4F600EE4A34 /* ahorcado_5.png in Resources */,
 				E35B41EA1F95E2D700EE4A34 /* Assets.xcassets in Resources */,
 				E35B41FC1F95E4F600EE4A34 /* acertasteTodo.png in Resources */,
@@ -337,6 +341,7 @@
 				E35B41F31F95E2D700EE4A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

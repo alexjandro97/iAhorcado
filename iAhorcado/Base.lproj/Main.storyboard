@@ -157,18 +157,6 @@
                                     <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XBu-qo-SK3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Rf-fu-jrI">
-                                <frame key="frameInset" minX="134" minY="320" width="55" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="X">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oWU-Ft-fv6"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JI9-IM-GxN">
                                 <frame key="frameInset" minX="197" minY="320" width="55" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -364,10 +352,49 @@
                                 <frame key="frameInset" minX="12" minY="7" width="196" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Rf-fu-jrI">
+                                <frame key="frameInset" minX="134" minY="320" width="55" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oWU-Ft-fv6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="letraA" destination="ziI-aL-G3j" id="tBl-jW-cWO"/>
+                        <outlet property="letraB" destination="GAZ-cM-Xg5" id="dgv-Zv-sIv"/>
+                        <outlet property="letraC" destination="JI9-IM-GxN" id="ytc-1i-zE3"/>
+                        <outlet property="letraD" destination="VuD-mv-GPf" id="fXq-PH-uzR"/>
+                        <outlet property="letraE" destination="wgI-JJ-3WJ" id="gtF-SY-DBf"/>
+                        <outlet property="letraF" destination="ZSM-Lu-v5F" id="9OJ-jl-8Qb"/>
+                        <outlet property="letraG" destination="loC-RH-I6R" id="VnC-KA-tyq"/>
+                        <outlet property="letraH" destination="FVJ-GS-C6K" id="fEm-au-7l1"/>
+                        <outlet property="letraI" destination="xQW-wN-v9J" id="g2e-l1-udh"/>
+                        <outlet property="letraJ" destination="ASM-0d-8Y1" id="vMv-ho-rsP"/>
+                        <outlet property="letraK" destination="gvO-IG-GHU" id="Tm8-NA-Fw6"/>
+                        <outlet property="letraL" destination="hYN-Ey-UEd" id="n88-TG-qSw"/>
+                        <outlet property="letraM" destination="Bbg-Ao-hH3" id="TUw-oW-xFp"/>
+                        <outlet property="letraN" destination="Lza-8b-aPD" id="Isc-Hy-X1B"/>
+                        <outlet property="letraO" destination="iRr-Uc-wRv" id="Ew2-Ch-TZX"/>
+                        <outlet property="letraP" destination="fD8-ES-PGs" id="XyE-4a-De1"/>
+                        <outlet property="letraQ" destination="Chs-ey-MCb" id="v3y-2L-x2O"/>
+                        <outlet property="letraR" destination="ddS-lQ-DRg" id="Z27-WJ-e0p"/>
+                        <outlet property="letraS" destination="ebZ-SM-d6l" id="nEx-Ln-5PY"/>
+                        <outlet property="letraSOR" destination="a3D-LG-Kkp" id="8nI-5m-kjA"/>
+                        <outlet property="letraT" destination="2GJ-6N-9T4" id="FsX-1H-TLz"/>
+                        <outlet property="letraU" destination="LUR-Cu-bfF" id="YTU-6X-YPv"/>
+                        <outlet property="letraV" destination="J8S-xD-Ozm" id="eKT-Kr-f2W"/>
+                        <outlet property="letraW" destination="0dA-qc-0F9" id="aRq-vY-SCl"/>
+                        <outlet property="letraX" destination="1Rf-fu-jrI" id="TIu-iv-Bco"/>
+                        <outlet property="letraY" destination="We3-aj-sDf" id="BZj-lz-6ri"/>
+                        <outlet property="letraZ" destination="gNO-Eo-ShP" id="aBi-L2-lKj"/>
                         <outlet property="palabraOculta" destination="tte-ah-bcY" id="LUI-yK-bqv"/>
                         <outlet property="panelAhorcado" destination="HdN-oi-FbM" id="njY-W9-ZhJ"/>
                     </connections>
